@@ -9,21 +9,31 @@ import Foundation
 
 // MARK: - News
 struct News: Codable {
-    let success: Bool
-    let result: [Result]
+    let status: String
+    let totalResults: Int
+    let articles: [Article]
 }
 
-// MARK: - Result
-struct Result: Codable {
-    let key: String
+// MARK: - Article
+struct Article: Codable {
+    let source: Source
+    let author: String?
+    let title: String
+    let articleDescription: String?
     let url: String
-    let resultDescription: String
-    let image: String
-    let name, source, date: String
+    let urlToImage: String?
+    let publishedAt: String?
+    let content: String?
     
     enum CodingKeys: String, CodingKey {
-        case key, url
-        case resultDescription = "description"
-        case image, name, source, date
+        case source, author, title
+        case articleDescription = "description"
+        case url, urlToImage, publishedAt, content
     }
+}
+
+// MARK: - Source
+struct Source: Codable {
+    let id: String?
+    let name: String
 }
