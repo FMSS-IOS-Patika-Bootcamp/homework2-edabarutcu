@@ -7,27 +7,13 @@
 
 import Foundation
 
-struct Constants {
-    struct ProductionServer {
-        static let baseURL = "http://newsapi.org/v2/top-headlines?country=tr&"
-
-    }
-    
-    struct APIParameterKey {
-        static let countryCode = "country_code"
-        static let randomCode = "random_code"
-        static let cPassword = "c_password"
-        static let apiKey = "d4b26469d3af47b19e0bc5228465fc0e"
-    }
-}
-
-enum HTTPHeaderField: String {
-    case authentication = "Authorization"
-    case contentType = "Content-Type"
-    case acceptType = "Accept"
-    case acceptEncoding = "Accept-Encoding"
-}
-
-enum ContentType: String {
-    case json = "application/json"
+struct App {
+    static let baseUrl = "http://app.haberler.com"
+    static let baseTypeUrl = "/services/haberlercom/2.11/service.asmx/haberler?category="
+    static let headlinesPath = "manset&count=35&offset=0&deviceType=1&userId="
+    static let sporPath = "spor&count=35&offset=0&deviceType=1&userId="
+    static let magazinePath = "magazin&count=35&offset=0&deviceType=1&userId="
+    static let economyPath = "ekonomi&%20count=35&offset=0&deviceType=1&userId="
+    static let policyPath = "politika&%20count=35&offset=0&deviceType=1&userId="
+    static let userId = "61ed99e0c09a8664"
 }
