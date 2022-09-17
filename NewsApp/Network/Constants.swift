@@ -17,3 +17,4 @@ struct App {
     static let policyPath = "politika&%20count=35&offset=0&deviceType=1&userId="
     static let userId = "61ed99e0c09a8664"
 }
+
