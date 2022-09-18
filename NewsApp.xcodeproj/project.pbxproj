@@ -12,9 +12,14 @@
 		D211C3D828D6551800DE4D49 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D211C3D628D6551800DE4D49 /* TitleTableViewCell.swift */; };
 		D211C3D928D6551800DE4D49 /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D211C3D728D6551800DE4D49 /* TitleTableViewCell.xib */; };
 		D22F6CB428D63C940089E20B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F6CB328D63C940089E20B /* WebService.swift */; };
+		D24FE99228D73450005C8C13 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24FE99128D73450005C8C13 /* TitleViewController.swift */; };
+		D24FE99428D736A6005C8C13 /* SportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24FE99328D736A6005C8C13 /* SportViewController.swift */; };
+		D24FE99728D736DE005C8C13 /* MagazineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24FE99628D736DE005C8C13 /* MagazineViewController.swift */; };
+		D24FE99A28D7374D005C8C13 /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24FE99928D7374D005C8C13 /* PolicyViewController.swift */; };
+		D24FE99C28D73761005C8C13 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24FE99B28D73760005C8C13 /* DetailsViewController.swift */; };
 		D26AAFB828CF4AD1002FC531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AAFB728CF4AD1002FC531 /* AppDelegate.swift */; };
 		D26AAFBA28CF4AD1002FC531 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AAFB928CF4AD1002FC531 /* SceneDelegate.swift */; };
-		D26AAFBC28CF4AD1002FC531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AAFBB28CF4AD1002FC531 /* ViewController.swift */; };
+		D26AAFBC28CF4AD1002FC531 /* EconomyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AAFBB28CF4AD1002FC531 /* EconomyViewController.swift */; };
 		D26AAFBF28CF4AD1002FC531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26AAFBD28CF4AD1002FC531 /* Main.storyboard */; };
 		D26AAFC128CF4AD8002FC531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26AAFC028CF4AD8002FC531 /* Assets.xcassets */; };
 		D26AAFC428CF4AD8002FC531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26AAFC228CF4AD8002FC531 /* LaunchScreen.storyboard */; };
@@ -30,10 +35,15 @@
 		D211C3D628D6551800DE4D49 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		D211C3D728D6551800DE4D49 /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
 		D22F6CB328D63C940089E20B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		D24FE99128D73450005C8C13 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		D24FE99328D736A6005C8C13 /* SportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportViewController.swift; sourceTree = "<group>"; };
+		D24FE99628D736DE005C8C13 /* MagazineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagazineViewController.swift; sourceTree = "<group>"; };
+		D24FE99928D7374D005C8C13 /* PolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
+		D24FE99B28D73760005C8C13 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		D26AAFB428CF4AD1002FC531 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26AAFB728CF4AD1002FC531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D26AAFB928CF4AD1002FC531 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D26AAFBB28CF4AD1002FC531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D26AAFBB28CF4AD1002FC531 /* EconomyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomyViewController.swift; sourceTree = "<group>"; };
 		D26AAFBE28CF4AD1002FC531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D26AAFC028CF4AD8002FC531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D26AAFC328CF4AD8002FC531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,12 +81,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D211C3D228D653BC00DE4D49 /* ViewModel */ = {
+		D211C3D228D653BC00DE4D49 /* VM */ = {
 			isa = PBXGroup;
 			children = (
 				D211C3D328D6549A00DE4D49 /* NewsViewModel.swift */,
 			);
-			path = ViewModel;
+			path = VM;
 			sourceTree = "<group>";
 		};
 		D211C3D528D654BA00DE4D49 /* Cells */ = {
@@ -84,8 +94,22 @@
 			children = (
 				D211C3D628D6551800DE4D49 /* TitleTableViewCell.swift */,
 				D211C3D728D6551800DE4D49 /* TitleTableViewCell.xib */,
+				D211C3D228D653BC00DE4D49 /* VM */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		D24FE99028D73424005C8C13 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D24FE99128D73450005C8C13 /* TitleViewController.swift */,
+				D24FE99328D736A6005C8C13 /* SportViewController.swift */,
+				D24FE99628D736DE005C8C13 /* MagazineViewController.swift */,
+				D26AAFBB28CF4AD1002FC531 /* EconomyViewController.swift */,
+				D24FE99928D7374D005C8C13 /* PolicyViewController.swift */,
+				D24FE99B28D73760005C8C13 /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		D26AAFAB28CF4AD1002FC531 = {
@@ -109,10 +133,11 @@
 		D26AAFB628CF4AD1002FC531 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				D24FE99028D73424005C8C13 /* ViewControllers */,
+				D26AAFCB28CF4C33002FC531 /* Model */,
 				D211C3D528D654BA00DE4D49 /* Cells */,
-				D26AAFCF28CF5917002FC531 /* Supporting Files */,
 				D26AAFCE28CF5903002FC531 /* Network */,
-				D26AAFBB28CF4AD1002FC531 /* ViewController.swift */,
+				D26AAFCF28CF5917002FC531 /* Supporting Files */,
 				D26AAFBD28CF4AD1002FC531 /* Main.storyboard */,
 				D26AAFC028CF4AD8002FC531 /* Assets.xcassets */,
 				D26AAFC228CF4AD8002FC531 /* LaunchScreen.storyboard */,
@@ -143,8 +168,6 @@
 			children = (
 				D26AAFB728CF4AD1002FC531 /* AppDelegate.swift */,
 				D26AAFB928CF4AD1002FC531 /* SceneDelegate.swift */,
-				D26AAFCB28CF4C33002FC531 /* Model */,
-				D211C3D228D653BC00DE4D49 /* ViewModel */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -265,13 +288,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24FE99728D736DE005C8C13 /* MagazineViewController.swift in Sources */,
 				D211C3D828D6551800DE4D49 /* TitleTableViewCell.swift in Sources */,
 				D22F6CB428D63C940089E20B /* WebService.swift in Sources */,
 				D2909B9628D340330093F695 /* Constants.swift in Sources */,
-				D26AAFBC28CF4AD1002FC531 /* ViewController.swift in Sources */,
+				D24FE99428D736A6005C8C13 /* SportViewController.swift in Sources */,
+				D26AAFBC28CF4AD1002FC531 /* EconomyViewController.swift in Sources */,
 				D26AAFCD28CF4CD6002FC531 /* NewsEntity.swift in Sources */,
+				D24FE99228D73450005C8C13 /* TitleViewController.swift in Sources */,
+				D24FE99A28D7374D005C8C13 /* PolicyViewController.swift in Sources */,
 				D211C3D428D6549A00DE4D49 /* NewsViewModel.swift in Sources */,
 				D26AAFB828CF4AD1002FC531 /* AppDelegate.swift in Sources */,
+				D24FE99C28D73761005C8C13 /* DetailsViewController.swift in Sources */,
 				D26AAFBA28CF4AD1002FC531 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
